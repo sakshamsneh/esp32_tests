@@ -1,7 +1,96 @@
 {
   "data": [
-    {"a":"a"}, {"a":"b"}, {"a":"c"}, {"a":"d"},
-    {"a":"e"}, {"a":"f"}, {"a":"g"}, {"a":"h"}
-  ],
-  "digital": [1,1,0,0,0,0,0,0,0,0,1,1,0,0]
+    {
+      "order": 1,
+      "question": "How are you?",
+      "next": [
+        {
+          "answer": "a",
+          "order": 2
+        },
+        {
+          "answer": "b",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "question": "What next?sword/shield?",
+      "next": [
+        {
+          "answer": "a",
+          "order": 4
+        },
+        {
+          "answer": "b",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "question": "Go East?",
+      "next": [
+        {
+          "answer": "a",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "question": "Fight?",
+      "next": [
+        {
+          "answer": "a",
+          "order": 7
+        },
+        {
+          "answer": "b",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "question": "Defend?",
+      "next": [
+        {
+          "answer": "a",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "question": "You have reached here. This is your base.",
+      "next": [
+        {
+          "answer": "a",
+          "order": 9
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "question": "You are now safe. You won.",
+      "next": [
+        {
+          "answer": "a",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "question": "The End. Restart?",
+      "next": [
+        {
+          "answer": "a",
+          "order": 1
+        }
+      ]
+    }
+  ]
 }
