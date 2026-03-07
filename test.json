@@ -14,84 +14,157 @@
 
   "rooms": {
 
-    "0,0": { "type": "start", "exits": ["east","south"], "enemyChance": 0.0 },
-    "1,0": { "type": "hallway", "exits": ["west","east","south"], "enemyChance": 0.4 },
-    "2,0": { "type": "hallway", "exits": ["west","east","south"], "enemyChance": 0.4 },
-    "3,0": { "type": "hallway", "exits": ["west","east","south"], "enemyChance": 0.4 },
-    "4,0": { "type": "hallway", "exits": ["west","east","south"], "enemyChance": 0.5 },
-    "5,0": { "type": "hallway", "exits": ["west","east","south"], "enemyChance": 0.5 },
-    "6,0": { "type": "hallway", "exits": ["west","east","south"], "enemyChance": 0.5 },
-    "7,0": { "type": "treasure", "exits": ["west","east","south"], "loot": "rare" },
-    "8,0": { "type": "hallway", "exits": ["west","east","south"], "enemyChance": 0.6 },
-    "9,0": { "type": "hallway", "exits": ["west","south"], "enemyChance": 0.6 },
+    "0,0": {"type":"start","exits":["east","south"],"enemyChance":0.0},
 
-    "0,1": { "type": "hallway", "exits": ["north","east","south"], "enemyChance": 0.3 },
-    "1,1": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.4 },
-    "2,1": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.5 },
-    "3,1": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.5 },
-    "4,1": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.6 },
-    "5,1": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.6 },
-    "6,1": { "type": "npc", "npc": "lost_explorer", "exits": ["north","west","east","south"] },
-    "7,1": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.6 },
-    "8,1": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.7 },
-    "9,1": { "type": "hallway", "exits": ["north","west","south"], "enemyChance": 0.7 },
+    "1,0":{"type":"hallway","exits":["west","east","south"],"enemyChance":0.35},
+    "2,0":{"type":"hallway","exits":["west","east","south"],"enemyChance":0.35},
+    "3,0":{"type":"hallway","exits":["west","east","south"],"enemyChance":0.4},
+    "4,0":{"type":"hallway","exits":["west","east","south"],"enemyChance":0.45},
+    "5,0":{"type":"hallway","exits":["west","east","south"],"enemyChance":0.5},
+    "6,0":{"type":"hallway","exits":["west","east","south"],"enemyChance":0.5},
+    "7,0":{"type":"treasure","exits":["west","east","south"],"loot":"rare"},
+    "8,0":{"type":"hallway","exits":["west","east","south"],"enemyChance":0.55},
+    "9,0":{"type":"hallway","exits":["west","south"],"enemyChance":0.6},
 
-    "0,2": { "type": "hallway", "exits": ["north","east","south"], "enemyChance": 0.3 },
-    "1,2": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.4 },
-    "2,2": { "type": "treasure", "exits": ["north","west","east","south"], "loot": "common" },
-    "3,2": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.5 },
-    "4,2": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.6 },
-    "5,2": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.6 },
-    "6,2": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.6 },
-    "7,2": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.7 },
-    "8,2": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.7 },
-    "9,2": { "type": "hallway", "exits": ["north","west","south"], "enemyChance": 0.7 },
+    "0,1":{"type":"hallway","exits":["north","east","south"],"enemyChance":0.3},
+    "1,1":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.4},
+    "2,1":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.45},
+    "3,1":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.45},
+    "4,1":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.5},
+    "5,1":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.55},
+    "6,1":{"type":"npc","npc":"lost_explorer","exits":["north","west","east","south"]},
+    "7,1":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.6},
+    "8,1":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.6},
+    "9,1":{"type":"hallway","exits":["north","west","south"],"enemyChance":0.65},
 
-    "0,3": { "type": "room", "exits": ["north","east","south"], "enemyChance": 0.3 },
-    "1,3": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.4 },
-    "2,3": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.4 },
-    "3,3": { "type": "npc", "npc": "merchant", "exits": ["north","west","east","south"] },
-    "4,3": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.5 },
-    "5,3": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.6 },
-    "6,3": { "type": "treasure", "exits": ["north","west","east","south"], "loot": "rare" },
-    "7,3": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.7 },
-    "8,3": { "type": "room", "exits": ["north","west","east","south"], "enemyChance": 0.7 },
-    "9,3": { "type": "hallway", "exits": ["north","west","south"], "enemyChance": 0.8 },
+    "0,2":{"type":"hallway","exits":["north","east","south"],"enemyChance":0.35},
+    "1,2":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.4},
+    "2,2":{"type":"treasure","exits":["north","west","east","south"],"loot":"common"},
+    "3,2":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.45},
+    "4,2":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.5},
+    "5,2":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.55},
+    "6,2":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.55},
+    "7,2":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.6},
+    "8,2":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.65},
+    "9,2":{"type":"hallway","exits":["north","west","south"],"enemyChance":0.65},
 
-    "...": "rooms continue following same structure",
+    "0,3":{"type":"room","exits":["north","east","south"],"enemyChance":0.35},
+    "1,3":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.4},
+    "2,3":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.45},
+    "3,3":{"type":"npc","npc":"merchant","exits":["north","west","east","south"]},
+    "4,3":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.5},
+    "5,3":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.55},
+    "6,3":{"type":"treasure","exits":["north","west","east","south"],"loot":"rare"},
+    "7,3":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.6},
+    "8,3":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.65},
+    "9,3":{"type":"hallway","exits":["north","west","south"],"enemyChance":0.7},
 
-    "9,9": {
-      "type": "boss",
-      "boss": "ancient_dragon",
-      "exits": ["north","west"],
-      "loot": "legendary"
+    "0,4":{"type":"room","exits":["north","east","south"],"enemyChance":0.4},
+    "1,4":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.45},
+    "2,4":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.45},
+    "3,4":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.5},
+    "4,4":{"type":"treasure","exits":["north","west","east","south"],"loot":"common"},
+    "5,4":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.55},
+    "6,4":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.6},
+    "7,4":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.65},
+    "8,4":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.7},
+    "9,4":{"type":"hallway","exits":["north","west","south"],"enemyChance":0.75},
+
+    "0,5":{"type":"room","exits":["north","east","south"],"enemyChance":0.45},
+    "1,5":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.5},
+    "2,5":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.5},
+    "3,5":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.55},
+    "4,5":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.55},
+    "5,5":{"type":"npc","npc":"shrine_keeper","exits":["north","west","east","south"]},
+    "6,5":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.6},
+    "7,5":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.65},
+    "8,5":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.7},
+    "9,5":{"type":"hallway","exits":["north","west","south"],"enemyChance":0.75},
+
+    "0,6":{"type":"room","exits":["north","east","south"],"enemyChance":0.45},
+    "1,6":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.5},
+    "2,6":{"type":"treasure","exits":["north","west","east","south"],"loot":"rare"},
+    "3,6":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.55},
+    "4,6":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.6},
+    "5,6":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.6},
+    "6,6":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.65},
+    "7,6":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.7},
+    "8,6":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.75},
+    "9,6":{"type":"hallway","exits":["north","west","south"],"enemyChance":0.8},
+
+    "0,7":{"type":"room","exits":["north","east","south"],"enemyChance":0.5},
+    "1,7":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.55},
+    "2,7":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.55},
+    "3,7":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.6},
+    "4,7":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.65},
+    "5,7":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.7},
+    "6,7":{"type":"treasure","exits":["north","west","east","south"],"loot":"rare"},
+    "7,7":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.75},
+    "8,7":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.8},
+    "9,7":{"type":"hallway","exits":["north","west","south"],"enemyChance":0.85},
+
+    "0,8":{"type":"room","exits":["north","east","south"],"enemyChance":0.55},
+    "1,8":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.6},
+    "2,8":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.6},
+    "3,8":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.65},
+    "4,8":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.7},
+    "5,8":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.75},
+    "6,8":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.8},
+    "7,8":{"type":"room","exits":["north","west","east","south"],"enemyChance":0.85},
+    "8,8":{"type":"treasure","exits":["north","west","east","south"],"loot":"legendary"},
+    "9,8":{"type":"hallway","exits":["north","west","south"],"enemyChance":0.9},
+
+    "0,9":{"type":"hallway","exits":["north","east"],"enemyChance":0.6},
+    "1,9":{"type":"hallway","exits":["north","west","east"],"enemyChance":0.65},
+    "2,9":{"type":"hallway","exits":["north","west","east"],"enemyChance":0.7},
+    "3,9":{"type":"hallway","exits":["north","west","east"],"enemyChance":0.75},
+    "4,9":{"type":"hallway","exits":["north","west","east"],"enemyChance":0.8},
+    "5,9":{"type":"hallway","exits":["north","west","east"],"enemyChance":0.85},
+    "6,9":{"type":"hallway","exits":["north","west","east"],"enemyChance":0.9},
+    "7,9":{"type":"hallway","exits":["north","west","east"],"enemyChance":0.9},
+    "8,9":{"type":"hallway","exits":["north","west","east"],"enemyChance":0.95},
+
+    "9,9":{
+      "type":"boss",
+      "boss":"ancient_dragon",
+      "exits":["north","west"],
+      "loot":"legendary"
     }
+
   },
 
   "npcs": {
-    "lost_explorer": {
-      "dialogue": [
+    "lost_explorer":{
+      "dialogue":[
         "I got lost in this dungeon...",
         "Take this potion, it might help you."
       ],
-      "givesItem": "potion"
+      "givesItem":"potion"
     },
 
-    "merchant": {
-      "dialogue": [
+    "merchant":{
+      "dialogue":[
         "Welcome traveler!",
         "Care to trade?"
       ],
-      "shop": ["potion","shield","dagger"]
+      "shop":["potion","shield","dagger"]
+    },
+
+    "shrine_keeper":{
+      "dialogue":[
+        "This shrine protects travelers.",
+        "May your path be safe."
+      ],
+      "givesBuff":"heal"
     }
   },
 
   "bosses": {
-    "ancient_dragon": {
-      "health": 300,
-      "attack": 25,
-      "defense": 15,
-      "loot": ["dragon_sword","gold","legendary_armor"]
+    "ancient_dragon":{
+      "health":300,
+      "attack":25,
+      "defense":15,
+      "loot":["dragon_sword","gold","legendary_armor"]
     }
   }
 }
