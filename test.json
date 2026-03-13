@@ -13,9 +13,7 @@
   },
 
   "rooms": {
-
     "0,0": {"type":"start","exits":["east","south"],"enemyChance":0.0},
-
     "1,0":{"type":"hallway","exits":["west","east","south"],"enemyChance":0.35},
     "2,0":{"type":"hallway","exits":["west","east","south"],"enemyChance":0.35},
     "3,0":{"type":"hallway","exits":["west","east","south"],"enemyChance":0.4},
@@ -130,7 +128,6 @@
       "exits":["north","west"],
       "loot":"legendary"
     }
-
   },
 
   "npcs": {
